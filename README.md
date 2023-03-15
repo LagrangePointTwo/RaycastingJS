@@ -27,5 +27,5 @@ Floors and Ceilings: https://lodev.org/cgtutor/raycasting2.html
 
 ## Sprites, Items, and Enemies
 Sprites representing items and enemies can easily be added as well. Items/weapons can often be rendered as a simple overlay after walls have been rendered. For some really nice Wolfenstein-style sprites to play around with, checkout these sprites from a GZDoom mod by user itsmeveronica: https://www.moddb.com/mods/volkograd-3d/images/makarov-reload-animation#imagebox. You can right-click and save the images, and then load them into the canvas. For details on code implementation, see this tutorial: https://lodev.org/cgtutor/raycasting3.html 
-![Super_Huge_41](https://user-images.githubusercontent.com/127203032/225162576-45fd076d-79c8-41ff-a202-dbc64724b406.gif)
-![sprite](https://user-images.githubusercontent.com/127203032/225162328-24d32d4a-eedd-4c16-8559-53310f2cb512.gif)
+
+<img width="500" alt="Screen Shot 2023-03-14 at 4 47 26 PM" src="https://user-images.githubusercontent.com/127203032/225162576-45fd076d-79c8-41ff-a202-dbc64724b406.gif"><img width="300" alt="Screen Shot 2023-03-14 at 4 47 26 PM" src="https://user-images.githubusercontent.com/127203032/225162328-24d32d4a-eedd-4c16-8559-53310f2cb512.gif">
