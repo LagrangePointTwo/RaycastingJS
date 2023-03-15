@@ -1,6 +1,9 @@
 # RaycastingJS
 This project consists of raycasting demos in JavaScript. I've included a euclidean angles example and a vector based example. A debugging version showing the overhead 2D view along side the rendered raycaster is also included. These are meant to be a jumping off point for you to build a Wolfenstein 3D style raycasting game in the browser, or to learn about how raycasters work. In my opinion, the modern browser is a fantastic medium for this.
+
 <img width="1141" alt="Screen Shot 2023-03-14 at 4 07 49 PM" src="https://user-images.githubusercontent.com/127203032/225161920-1e6db28e-7cec-4cd9-99fa-97b9c733933a.png">
+
+Watch the <a href="https://youtu.be/eRbJc06g6iQ">YouTube video covering this topic here!</a>
 
 I've set the maps to the same layout in both approaches for comparison. Both demos should look nearly identical when rendered. The vectors-based version uses less code and is a good choice for building off of, while the euclidean example uses angles intuitively and works in a similar way to many other raycasters.
 
