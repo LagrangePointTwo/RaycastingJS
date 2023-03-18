@@ -354,9 +354,9 @@
                 coordY += addToY;
 
                 /* Check if ray hit wall */
-                let modifierX = 0;            // modifier ensures both sides of wall are checked
+                let modifierX = 0;
                 let modifierY = 0;
-                if (quadrant == 2 && side == 1) modifierX = -1;
+                if (quadrant == 2 && side == 1) modifierX = -1; // worldMap walls have length 1
                 if (quadrant == 3 && side == 0) modifierY = -1;
                 if (quadrant == 3 && side == 1) modifierX = -1;
                 if (quadrant == 4 && side == 0) modifierY = -1;
