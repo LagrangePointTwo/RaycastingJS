@@ -353,10 +353,8 @@
                 coordX += addToX;
                 coordY += addToY;
 
-                /* Check if ray hit wall,
-                   modifier ensures both sides of square wall are checked
-                */
-                let modifierX = 0;
+                /* Check if ray hit wall */
+                let modifierX = 0;            // modifier ensures both sides of wall are checked
                 let modifierY = 0;
                 if (quadrant == 2 && side == 1) modifierX = -1;
                 if (quadrant == 3 && side == 0) modifierY = -1;
