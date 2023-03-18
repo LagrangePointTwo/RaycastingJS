@@ -62,12 +62,7 @@
     let planeX = 0;
     let planeY = 0.66; //the 2d raycaster version of camera plane
 
-    let time = 0; //time of current frame
-    let oldTime = 0; //time of previous frame
-
     var canvas = document.getElementById('gameplay');
-    
-    //Always check for properties and methods, to make sure your code doesn't break in other browsers.
     if (canvas.getContext) 
     {
         var context = canvas.getContext('2d');
@@ -91,7 +86,6 @@
         }
         return color;
     }
-    
 
     function drawLine(ctx, begin, end, stroke = 'black', width = 1) {
         if (stroke) {

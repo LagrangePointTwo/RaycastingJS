@@ -154,14 +154,14 @@
             let positiveX = Math.cos(rayAngle) >= 0;
             let positiveY = Math.sin(rayAngle) >= 0;
 
-            if 		( positiveX &&  positiveY ) quadrant = 1;
+            if      ( positiveX &&  positiveY ) quadrant = 1;
             else if (!positiveX &&  positiveY ) quadrant = 2;
             else if (!positiveX && !positiveY ) quadrant = 3;
             else if ( positiveX && !positiveY ) quadrant = 4;
 
             let adjustedRayAngle; // Angle off of Vertical
             let remainderX;       // Remainder in X until we hit the next vertical line
-            let remainderY;		  // Remainder in Y until we hit the next horizontal line
+            let remainderY;       // Remainder in Y until we hit the next horizontal line
             switch (quadrant) {
                 case 1:
                     adjustedRayAngle = (Math.PI/2) - rayAngle;
@@ -221,7 +221,7 @@
                 let initial_signs;        /* Initial Direction we check in based on quadrant  */
                 let to_add;               /* +0/+1 to coordXRemainder/Y depending on quadrant */
                 let side_0_signs;         /* Direction we check next in for horizontal walls  */
-                let side_1_signs; 		  /* Direction we check next in for vertical walls    */
+                let side_1_signs;         /* Direction we check next in for vertical walls    */
 
                 switch (quadrant) {
                     case 1: 
